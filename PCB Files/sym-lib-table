@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Plotter-rescue)(type Legacy)(uri ${KIPRJMOD}/Plotter-rescue.lib)(options "")(descr ""))
+)
