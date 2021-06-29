@@ -1,0 +1,1081 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.0  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGEDBY" CONTENT="Carlos Silva">
+	<META NAME="CHANGED" CONTENT="20191222;20525176">
+	<META name="viewport" content="width=device-width, initial-scale=1">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 2.01cm }
+		TD P { margin-bottom: 0cm }
+		P { margin-bottom: 0.2cm }
+		A:link { so-language: zxx }
+	-->
+
+		/*css IMAGENS */
+
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 25%;
+			}
+
+		figure figcaption {
+			border: 1px;
+			text-align: center;
+			}
+
+		/* CSS SECCAO HARDWARE */
+
+
+		* {box-sizing: border-box}
+		body {font-family: Verdana, sans-serif; margin:0}
+		.mySlides {display: none}
+		img {vertical-align: middle;}
+
+		#slide1 {display:block}
+
+		/* Slideshow container */
+		.slideshow-container {
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -22px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		background-color: rgba(0,0,0,0.8);
+		}
+
+		/* Caption text */
+		.text {
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+		}
+
+		.active, .dot:hover {
+		background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
+
+		@keyframes fade {
+		from {opacity: .4} 
+		to {opacity: 1}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		.prev, .next,.text {font-size: 11px}
+		}
+
+		/*CSS SECCAO CONTACTOS*/
+
+
+		.card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		max-width: 300px;
+		margin: auto;
+		text-align: center;
+		}
+
+		.title {
+		color: grey;
+		font-size: 18px;
+		}
+
+		button {
+		border: none;
+		outline: 0;
+		display: inline-block;
+		padding: 8px;
+		color: white;
+		background-color: #000;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+		font-size: 18px;
+		}
+
+		a {
+		text-decoration: none;
+		font-size: 22px;
+		color: black;
+		}
+
+		button:hover, a:hover {
+		opacity: 0.7;
+		}
+
+
+
+		* {
+			box-sizing: border-box;
+			}
+
+			/* Create two equal columns that floats next to each other */
+			.column {
+			float: left;
+			width: 50%;
+			padding: 10px;
+			height: 300px; /* Should be removed. Only for demonstration */
+			}
+
+			/* Clear floats after the columns */
+			.row:after {
+			content: "";
+			display: table;
+			clear: both;
+			}
+
+	</STYLE>
+
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("demo");
+		var captionText = document.getElementById("caption");
+		if (n > slides.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " active";
+		captionText.innerHTML = dots[slideIndex-1].alt;
+		}
+
+
+		</script>
+</HEAD>
+<BODY LANG="pt-PT" DIR="LTR">
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=0 CELLSPACING=0 STYLE="page-break-before: always">
+	<COL WIDTH=15*>
+	<COL WIDTH=7*>
+	<COL WIDTH=18*>
+	<COL WIDTH=38*>
+	<COL WIDTH=37*>
+	<COL WIDTH=13*>
+	<COL WIDTH=25*>
+	<COL WIDTH=38*>
+	<COL WIDTH=23*>
+	<COL WIDTH=9*>
+	<COL WIDTH=19*>
+	<COL WIDTH=15*>
+	<TR VALIGN=TOP>
+		<TD COLSPAN=2 WIDTH=9% BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD COLSPAN=7 WIDTH=75% BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0cm; padding-bottom: 0.08cm; padding-left: 0cm; padding-right: 0cm; text-decoration: none"><A NAME="In&iacute;cio"></A>
+			<FONT COLOR="#ffffff"><FONT FACE="Thorndale, serif"><FONT SIZE=6><I><B>Plotter with WiFi Control</B></I></FONT></FONT></FONT></P>
+		</TD>
+		<TD ROWSPAN=4 COLSPAN=3 WIDTH=17% BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=CENTER STYLE="margin-bottom: 0.51cm; background: transparent; border: none; padding: 0cm; text-decoration: none">
+			<IMG SRC="image002.jpg" NAME="graphics1" ALIGN=RIGHT WIDTH=231 HEIGHT=110 BORDER=0><BR CLEAR=RIGHT><FONT COLOR="#ffffff"><FONT FACE="Thorndale, serif"><FONT SIZE=4 STYLE="font-size: 16pt"><I><B>LABSI</B></I></FONT></FONT></FONT></P>
+			<P ALIGN=CENTER STYLE="margin-bottom: 0.51cm; background: transparent; border: none; padding: 0cm; text-decoration: none">
+			<FONT COLOR="#ffffff"><FONT FACE="Thorndale, serif"><FONT SIZE=3><I><B>2019/2020</B></I></FONT></FONT></FONT></P>
+			<P ALIGN=CENTER STYLE="margin-bottom: 0.51cm; background: transparent; border: none; padding: 0cm; text-decoration: none"><A HREF="#Contactos"><FONT COLOR="#ffffff"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif">
+					<FONT SIZE=3><SPAN LANG="pt-BR"><SPAN STYLE="font-style: normal">
+						<SPAN STYLE="font-weight: normal"><B>Contactos</B></SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+
+			<P ALIGN=CENTER><BR>
+			</P>
+			
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD COLSPAN=9 WIDTH=83% HEIGHT=34 BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=LEFT STYLE="border: none; padding: 0cm; text-decoration: none">
+			<FONT COLOR="#ffffff"><FONT FACE="Thorndale, serif"><FONT SIZE=4><I><B>Autores:</B></I></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=6% BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD COLSPAN=5 WIDTH=44% BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=LEFT STYLE="border: none; padding: 0cm; text-decoration: none">
+			<FONT COLOR="#000000"><FONT FACE="Thorndale, serif"><FONT SIZE=1 STYLE="font-size: 8pt"><I><B><FONT COLOR="#ffffff"><FONT SIZE=3>Carlos Silva
+			(N&ordm; 1160628)</FONT></FONT> </B></I></FONT></FONT></FONT>
+			</P>
+		</TD>
+		<TD COLSPAN=3 WIDTH=33% BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=LEFT STYLE="border: none; padding: 0cm; text-decoration: none">
+			<FONT COLOR="#ffffff"><FONT FACE="Thorndale, serif"><FONT SIZE=3><I><B>1160628@isep.ipp.pt</B></I></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=6% BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+		<TD COLSPAN=5 WIDTH=44% BGCOLOR="#0099ff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=LEFT STYLE="border: none; padding: 0cm; text-decoration: none">
+			<FONT COLOR="#000000"><FONT FACE="Thorndale, serif"><FONT SIZE=3><I><B><FONT COLOR="#ffffff">Diogo Pinto (N&ordm; 1160736)</FONT> </B></I></FONT></FONT></FONT>
+			</P>
+		</TD>
+		<TD COLSPAN=3 WIDTH=33% BGCOLOR="#0099ff">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm; text-decoration: none">
+			<FONT COLOR="#ffffff"><FONT FACE="Thorndale, serif"><FONT SIZE=3><I><B>1160736@isep.ipp.pt</B></I></FONT></FONT></FONT></P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 WIDTH=16% HEIGHT=12 BGCOLOR="#ffffff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#Introdu&ccedil;&atilde;o"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=3><SPAN LANG="pt-BR"><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Introdução</SPAN></SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+		<TD WIDTH=15% BGCOLOR="#ffffff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#Arquitetura"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Arquitetura</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+		<TD WIDTH=14% BGCOLOR="#ffffff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#Hardware"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Hardware</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+		<TD COLSPAN=2 WIDTH=15% BGCOLOR="#ffffff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#Software"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Software</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+		<TD WIDTH=15% BGCOLOR="#ffffff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#Resultados"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Resultados</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+		<TD COLSPAN=2 WIDTH=12% BGCOLOR="#ffffff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#Conclus&otilde;es"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Conclus&otilde;es</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+		<TD COLSPAN=2 WIDTH=13% BGCOLOR="#ffffff" SDVAL="0" SDNUM="2070;1046;@">
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#Refer&ecirc;ncias"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=3><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Refer&ecirc;ncias</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=12 WIDTH=100% BGCOLOR="#ffffff" SDNUM="2070;1046;@">
+			<P ALIGN=CENTER STYLE="background: #0099ff"><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=12 WIDTH=100% BGCOLOR="#eeeeee">
+			<P ALIGN=CENTER STYLE="margin-bottom: 0.5cm; background: #eeeeee"><BR><BR>
+			</P>
+			<P ALIGN=CENTER STYLE="background: #eeeeee"><IMG SRC="logotipo.jpg" alt="Plotter 2D" ALIGN=BOTTOM WIDTH=231 HEIGHT=441 BORDER=0></P>
+			<BR></BR>
+			</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD COLSPAN=11 WIDTH=94%>
+			<UL>
+				<LI><P ALIGN=LEFT STYLE="background: #0099ff; border: none; padding: 0cm"><A NAME="Introdução"></A>
+
+				<FONT SIZE=5>Introdução</FONT></P>
+
+				<BR></BR>
+					<p  align="justify"> O projeto desenvolvido no contexto da unidade curricular Laboratório de Sistemas consiste numa máquina de desenho e escrita
+						2D; o processo de desenho é baseado num sistema de eixos duplo (X-Y) e um mecanismo que possibilita elevar e baixar o marcador de desenho.
+					</p>
+
+					<p  align="justify"> A projeção da estrutura mecânica teve por base o estudo preliminar de estruturas adotadas particularmente tecnologia, 
+						optando-se por utilizar o movimento de eixos "T-Bot", revelando-se uma excelente opção na garantia da estabilidade no processo de desenho.
+						Desta forma, optou-se pelo desenho de toda a estrutura utilizando o desenho assistido por computador, sendo que posteriormente procedeu-se
+						à respetiva impressão dos modelos 3D.
+					</p>
+
+					<p  align="justify"> O sistema projetado terá por base uma interface gráfica desenvolvida em ambiente Qt, sendo que o desenho pretendido pelo utilizador 
+						será processado, a um controlo de alto nível, por software Python, que possibilitará a comunicação com a placa controladora, que se designa por
+						controlo de baixo nível, que irá processar a informação recebida pelo ESP-01 via comunicação série e possibilitará o controlo dos motores de passo a passo e
+						do servo motor.
+					</p>
+
+
+					<p  align="justify">Desta forma, apresenta-se o estado de arte desenvolvido, o qual possibilitou o estudo das tecnologias frequentemente utilizadas
+						neste tipo de projetos, o que nos permitou elucidar na prossecução dos objetivos pretendidos no desenvolvimento da <i>Plotter 2D</i>.
+					</p>
+
+					<BR></BR>
+					<div style="display:table; margin-left:auto; margin-right:auto;"> 
+	
+						<object allign="middle" width="900" height="900" data="estadodearte.pdf"></object>
+	
+					</div>   
+					<BR></BR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</UL>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#In&iacute;cio"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">In&iacute;cio</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; background: #eeeeee"><BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD COLSPAN=11 WIDTH=94%>
+			<UL>
+				<LI><P ALIGN=LEFT STYLE="background: #0099ff; border: none; padding: 0cm"><A NAME="Arquitetura"></A>
+				<FONT SIZE=5>Arquitetura</FONT></P>
+
+				<p align="justify"> A arquitetura do sistema desenvolvido encontra-se dividida em 3 parte: interface de utilizador,
+					controlo de alto nível e controlo de baixo nível, conforme indicado na figura 1.
+			</p>
+
+			<BR></BR>
+
+			<figure>
+					<img src="arquiteturageral.png" alt="esp-01" class="center" style="width:50%">
+					<figcaption><b>Fig.1 - Arquitectura do Sistema</b>
+					</figcaption>
+				</figure>
+
+			<BR></BR>
+
+			<h3 style="text-align:left">Interface de Utilizador</h3>
+
+			<p align="justify"> A interface de utilizador consiste numa aplicação desenvolvida em Qt, com o objetivo de simplificar a interação
+				utilizador/máquina, possibilitando o controlo da <i>plotter 2D</i> em ambiente de interface gráfica.
+		</p>
+	
+		
+		<p align="justify"> Deste modo, o controlo da <i>plotter</i> poderá ser realizado através da escolha de desenhos pré-definidos, envolvendo diversas formas
+			geométricas, como, por exemplo, círculo, quadrado, triângulo, estrela e diversos outros polígonos, sendo que nesta última opção existe uma grande diversidade
+			de formas geométricas, dado que é possível definir o número de lados do polígono pretendido. Além disso, é também possível realizar desenho livre, utilizando para isso
+			controlos manuais que envolvem um <i>joystick</i> e rato/teclado; além destas opções é possível carregar um ficheiro de texto ou <i>csv</i>, bem como a movimentação 
+			dos eixos através da escolha manual das coordenadas pretendidas pelo utilizador.
+		</p>
+
+
+		<BR></BR>
+		<figure>
+				<img src="qt_intro.png" alt="qt_intro" class="center" style="width:50%">
+				<figcaption><b>Fig.2 - Qt</b>
+				</figcaption>
+			</figure>
+		<BR></BR>
+
+		<BR></BR>
+
+		<h3 style="text-align:left">Controlo de Alto Nível</h3>
+
+		<p align="justify"> O controlo de alto nível consiste no desenvolvimento de software em linguagem Python, integrando a biblioteca <i>Turtle Graphics</i>. 
+			Após o desenvolvimento do desenho pretendido, este nível de controlo é responsável pelo envio da informação para o ESP-01 via Wi-Fi, utilizando 
+			métodos HTTP, sendo que, de seguida, a informação é reencaminhada para o microcontrolador ATMega328p via USART.		
+
+		</p>
+
+		<BR></BR>
+
+		<h3 style="text-align:left">Controlo de Baixo Nível</h3>
+
+		<p align="justify"> O controlo de baixo nível consiste no desenvolvimento de software em linguagem C, sendo responsável pelo controlo dos motores de passo a passo,
+			servo motor e do LED, satisfazendo as funções solicitadas pelo controlo de alto nível.
+
+		</p>
+		<BR></BR>
+		
+
+
+			</UL>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#In&iacute;cio"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">In&iacute;cio</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD COLSPAN=11 WIDTH=94%>
+			<UL>
+				<LI><P ALIGN=LEFT STYLE="background: #0099ff; border: none; padding: 0cm"><A NAME="Hardware"></A>
+				<FONT SIZE=5>Hardware</FONT></P>
+
+				<p align="justify">O sistema desenvolvido aprensenta diferentes níveis de <i>hardware</i>, sendo composto por um sistema de controlo de alto e baixo nível.
+				
+				</p>
+				
+
+				<h3 style="text-align:left">Sistema de Alto Nível</h3>
+
+				<p align="justify"> O sistema denominado de controlo de alto nível é composto por um microcontrolador ESP-01, responsável pelo envio da informação, 
+					tratada no <i>software</i> Python IDE, para o microcontrolador ATMega328p utilizando, para isso, o porto GPIO, estabelencendo
+					uma comunicação série entre ambos os dispositivos.
+
+				
+
+				</p>
+
+				<figure>
+				<img src="esp.jpg" alt="esp-01" class="center">
+				<figcaption><b>Fig.3 - ESP-01</b>
+				</figcaption>
+				</figure>
+		
+
+
+
+				<h3 style="text-align:left">Sistema de Baixo Nível</h3>
+				
+				
+				<p align="justify"> O sistema denominado de controlo de baixo nível é responsável pela receção da informação do canal de comunicação série entre
+					o micocontrolador ESP-01 e ATMega328p, procedendo ao seu respectivo processamento, possibilitando o controlo dos motores de passo a passo,
+					utilizando o respetivo controlador L298N e o controlo do servo motor.
+
+					
+				</p>
+
+				<BR></BR>
+
+				<h3 style="text-align:left">Esquema</h3>
+
+				<p align="justify"> O esquema da PCB apresenta os diversos circuitos do projeto desenvolvido, sendo que as ligações entre a placa e os periféricos 
+					são efetuadas por conectores. 
+				</p>
+				<p align="justify">O circuito apresenta uma fonte de alimentação de 10V; porém, dado que os diferentes componentes apresentam tensões
+					de alimentação diferentes, foram utilizados 2 tipos de reguladores de tensão : LM7805, para fornecer uma tensão 5V e LD33V, para fornecer
+					uma tensão de 3.3V. É ainda importante referir que na comunicação série, dado que o microcontrolador ESP-01 apresenta um nível de tensão lógica
+					de 3.3V e o microcontrolador ATMega328p apresenta um nível de tensão lógica de 5V, procedeu-se à utilização de um divisor de tensão entre o porto
+					TX do ATMega328p e o porto RX do ESP-01; no caso da ligação entre o porto RX do ATMega328p e o porto TX do ESP-01, não se revelou necessário
+					elevar a tensão, dado que 3.3V é um valor de tensão suficiente na definição de um nível lógico alto por parte do microcontrolador ATMega328p, que 
+					utiliza níveis lógicos TTL, apresentando um nível lógico alto com um valor mínimo de 2.7V.
+
+				</p>
+				<p align="justify"> A utilização dos díodos no controlador L298N apresentam um cariz de proteção para este circuito integrado, uma vez que 
+					os motores definem-se a nível eléctrico como cargas indutivas que geram picos de tensão com uma polaridade inversa(força eletromotriz induzida),
+					 sempre que ocorre uma variação do fluxo magnético nas bobinas.
+				</p>
+
+				<BR></BR>
+				<div style="display:table; margin-left:auto; margin-right:auto;"> 
+
+					<object allign="middle" width="900" height="900" data="esquema.pdf"></object>
+
+				</div>   
+				<BR></BR>
+		
+
+				<h3 style="text-align:left">Placa de Circuito Impresso</h3>
+				<BR></BR>
+					<div class="slideshow-container">
+	
+						<div id="slide1" class="mySlides fade">
+						  <div class="numbertext">1 / 3</div>
+						  <img src="vistamedia.png" style="width:100%">
+						  <div class="text">Vista Média</div>
+						</div>
+						
+						<div class="mySlides fade">
+						  <div class="numbertext">2 / 3</div>
+						  <img src="vistacima.png" style="width:100%">
+						  <div class="text">Vista Cima</div>
+						</div>
+						
+						<div class="mySlides fade">
+						  <div class="numbertext">3 / 3</div>
+						  <img src="vistabaixo.png" style="width:100%">
+						  <div class="text">Vista Baixo</div>
+						</div>
+						
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						
+						</div>
+						<br>
+						
+						<div style="text-align:center">
+						  <span class="dot" onclick="currentSlide(1)"></span> 
+						  <span class="dot" onclick="currentSlide(2)"></span> 
+						  <span class="dot" onclick="currentSlide(3)"></span> 
+						</div>
+						<BR></BR>
+
+					<h3 style="text-align:left">Motores de Passo a Passo</h3>
+
+					<p align="justify"> O motores de passo a passo utilizados na movimentação do eixo X e Y da <i>plotter</i> são os NEMA17, com referência 
+						17HS19-2004S1; este motor é do tipo Bipolar e aprensenta uma tensão nominal de funcionamento de 2.80V e uma corrente máxima 
+						de 2.00A, por bobina. Os motores efetuam 200 passos/volta, sendo que no controlo de um passo completo(FULLSTEP), realizam movimentos lineares de 0.14mm 
+						e rotativos de 1.8º, sendo esta a sua resolução mínima.
+					</p>
+					<BR></BR>
+
+					<figure>
+						<img src="step.jpg" alt="step" class="center">
+						<figcaption><b>Fig.4 - Motor de Passo a Passo</b>
+						</figcaption>
+					</figure>
+					
+
+
+					<BR></BR>
+
+
+					<h3 style="text-align:left">Servo Motor</h3>
+
+					<p align="justify"> O servo motor SG90 é utilizado na movimentação do eixo Z, permitindo elevar e baixar a caneta de desenho.
+
+					</p>
+					<BR></BR>
+
+					<figure>
+						<img src="sg90.jpg" alt="sg90" class="center">
+						<figcaption><b>Fig.5 - Servo Motor SG90</b>
+						</figcaption>
+					</figure>
+
+
+
+
+
+			</UL>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#In&iacute;cio"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">In&iacute;cio</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD COLSPAN=11 WIDTH=94%>
+			<UL>
+				<LI><P ALIGN=LEFT STYLE="background: #0099ff; border: none; padding: 0cm"><A NAME="Software"></A>
+				<FONT SIZE=5>Software</FONT></P>
+
+				<br></br>
+
+				<p align="justify"> O desenvolvimento do código python necessário para o desenho de um círculo tem por base um conjunto de 
+					equações matemáticas que definem a rotação de eixos em duas dimensões num referencial cartesiano X-Y.
+				</p>
+
+
+				<p align="justify"> As equações que definem a transformação em duas dimensões, permitindo a rotação dos eixos X-Y no sentido anti-horário
+					através de um ângulo &theta;, resultando num eixo X'-Y', são as seguintes:
+				</p>
+
+				<p align="justify"> No sistema de eixos X-Y, define-se o ponto P com coordenadas polares (r, &alpha;). Deste modo, num sistema de eixos X'-Y'
+					, P irá ter como coordenadas polares (r, &alpha;-&theta;). Desta forma:
+				</p>
+
+				<p ALIGN="middle">
+					<img src="https://latex.codecogs.com/gif.latex?x=rcos(\alpha&space;)" title="x=rcos(\alpha )" />
+				</p>
+
+				<p ALIGN="middle">
+						<img src="https://latex.codecogs.com/gif.latex?y=rsin(\alpha&space;)" title="y=rsin(\alpha )" />
+
+				</p>
+				<br></br>
+				<p ALIGN="middle">
+
+					<img src="https://latex.codecogs.com/gif.latex?{\displaystyle&space;x'=r\cos(\alpha&space;-\theta&space;)=r\cos&space;\alpha&space;\cos&space;\theta&space;&plus;r\sin&space;\alpha&space;\sin&space;\theta&space;}" title="{\displaystyle x'=r\cos(\alpha -\theta )=r\cos \alpha \cos \theta +r\sin \alpha \sin \theta }" /></a>
+
+				</p>
+					
+				<p ALIGN="middle">
+						<img src="https://latex.codecogs.com/gif.latex?y'&space;=&space;r&space;\sin(&space;\alpha&space;-&space;\theta&space;)&space;=&space;r&space;\sin&space;\alpha&space;\cos&space;\theta&space;-&space;r&space;\cos&space;\alpha&space;\sin&space;\theta&space;" 
+							title="y' = r \sin( \alpha - \theta ) = r \sin \alpha \cos \theta - r \cos \alpha \sin \theta ." /></a>
+				</p>
+				<br></br>
+
+				<p align="justify"> Deste modo:
+					</p>
+				<br></br>
+
+				<p ALIGN="middle">
+						<img src="https://latex.codecogs.com/gif.latex?{\displaystyle&space;x=&space;x&space;\cos&space;\theta&space;&plus;&space;y&space;\sin&space;\theta}" 
+							title="{\displaystyle x= x \cos \theta + y \sin \theta}" /></a>
+				</p>	
+
+				<P ALIGN="middle">
+						<img src="https://latex.codecogs.com/gif.latex?{\displaystyle&space;y=-&space;x&space;\sin&space;\theta&space;&plus;&space;y&space;\cos&space;\theta}" 
+							title="{\displaystyle y=- x \sin \theta + y \cos \theta}" /></a>
+				</P>
+				<br></br>
+
+				<figure>
+						<img src="eixos.png" alt="interface" class="center" style="width:50%">
+						<figcaption><b>Fig.6 - Rotação sistema de eixos X-Y</b>
+						</figcaption>
+					</figure>
+				<br></br>
+
+				<h3 style="text-align:center">Fluxogramas</h3>
+				<div style="display:table; margin-left:auto; margin-right:auto;"> 
+	
+						<object allign="middle" width="900" height="900" data="fluxograma.pdf"></object>
+			
+						</div> 
+
+
+
+				<br></br>
+				<h3 style="text-align:center">Código Python</h3>
+				<div style="display:table; margin-left:auto; margin-right:auto;"> 
+
+						<object allign="middle" width="900" height="900" data="pikasso.py"></object>
+	
+					</div> 
+
+				<br></br>
+
+				<h3 style="text-align:center">Código C</h3>
+				<div style="display:table; margin-left:auto; margin-right:auto;"> 
+	
+					<object allign="middle" width="900" height="900" data="main.c"></object>
+		
+					</div> 
+
+
+				<br></br>
+
+				<h3 style="text-align:center">Código Arduino</h3>
+				<div style="display:table; margin-left:auto; margin-right:auto;"> 
+	
+					<object allign="middle" width="900" height="900" data="arduino.ino"></object>
+		
+					</div> 
+
+
+				<br></br>
+
+
+
+
+
+
+
+
+
+
+
+
+			</UL>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#In&iacute;cio"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">In&iacute;cio</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD COLSPAN=11 WIDTH=94%>
+			<UL>
+				<LI><P ALIGN=LEFT STYLE="background: #0099ff; border: none; padding: 0cm"><A NAME="Resultados"></A>
+				<FONT SIZE=5>Resultados</FONT></P>
+					
+				<br></br>
+				<figure>
+						<img src="qt_control.png" alt="interface" class="center" style="width:50%">
+						<figcaption><b>Fig.7 - Interface de controlo</b>
+						</figcaption>
+					</figure>
+				<br></br>
+				<figure>
+					<img src="plotter.jpg" alt="plotter" class="center" style="width:50%">
+					<figcaption><b>Fig.8 - <i>Plotter 2D</i></b>
+					</figcaption>
+				</figure>
+				<br></br>
+
+				
+				<P ALIGN=CENTER STYLE="background: #eeeeee"><embed src="https://www.youtube.com/embed/e7DBTXLLdHE" autostart="false"  height="480" width="720" />
+							  
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			</UL>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#In&iacute;cio"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">In&iacute;cio</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD COLSPAN=11 WIDTH=94%>
+			<UL>
+				<LI><P ALIGN=LEFT STYLE="background: #0099ff; border: none; padding: 0cm"><A NAME="Conclusões"></A>
+				<FONT SIZE=5>Conclusões</FONT></P>
+
+				<BR></BR>
+					<p  align="justify"> A realização deste projeto permitiu aprofundar os conhecimentos anteriormente adquiridos no ramo da Engenharia Electrotécnica e
+						de Computadores, bem como explorar novas ferramentas de desenvolvimento de software como, por exemplo, programação em ambiente Qt ou Python.
+					</p>
+
+					<p  align="justify"> O desenvolvimento da <i>plotter 2D</i> apresentou diversas adversidades mecânicas, sendo que o processo de montagem
+						envolveu a alteração e ajuste dos mecanismos de movimento dos eixos, que se revelam um aspeto crucial no nível de qualidade do desenho.
+					</p>
+
+
+					<p  align="justify"> A nível de software, inicialmente, optou-se por utilizar uma tecnologia baseada em <i>GCODE</i>, como é possível de ser observado
+						no estado da arte. Contudo, optou-se por abordar uma tecnologia baseada em Python, que não se revela tão vulgar em projetos que envolvam
+						<i>plotters 2D</i>, permitindo explorar diversas opções que esta linguagem de programação oferece aliada ao ambiente gráfico em ambiente Qt.
+					</p>
+
+					<p  align="justify"> Após definidos os objetivos pretendidos, procedeu-se ao desenvolvimento de todo o <i>software</i>, que possibilitou cumprir
+						os objetivos pretendidos com este projeto, salientando-se como principais o desenho de um círculo e o desenho livre com joystick ou
+						teclado/rato; a nível de envio de informação salienta-se a comunicação sem fios, que se revela um aspeto prático no controlo da <i>plotter</i>.
+					</p>
+
+					<p  align="justify"> Por fim, é importante salientar que os desenhos obtidos ao longo do teste da <i>plotter</i> revelaram-se com um nível de precisão
+						tendo em conta o objetivos pretendidos, dado que, o resultado obtido está completamente cofinada à capacidade da placa controladora no controlo do motores de
+						passo a passo, bem como a estabilidade mecânica do suporte do marcador de desenho.
+					
+					</p>
+
+
+
+
+
+
+
+				
+
+
+			</UL>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#In&iacute;cio"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">In&iacute;cio</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+			<BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+			</P>
+			<P ALIGN=LEFT><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD COLSPAN=11 WIDTH=94%>
+			<UL>
+				<LI><P ALIGN=LEFT STYLE="background: #0099ff; border: none; padding: 0cm"><A NAME="Refer&ecirc;ncias"></A>
+				<FONT SIZE=5>Refer&ecirc;ncias</FONT></P>
+			</UL>
+		</TD>
+		<TD WIDTH=6%>
+			<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#In&iacute;cio"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">In&iacute;cio</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+		</TD>
+	</TR>
+	<TR>
+
+
+
+			<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
+					<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm"><A NAME="_Ref153776170"></A><A NAME="_Ref152167798"></A>
+					<SPAN LANG="en-US">[1]</SPAN> “What is a Plotter?,” 21 Outubro 2019. [Online]. Available: </SPAN><A HREF="https://whatis.techtarget.com/definition/plotter"><SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">https://whatis.techtarget.com/definition/plotter</SPAN></SPAN>
+		
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776279"></A><SPAN LANG="en-GB"></SPAN>
+					<SPAN LANG="en-US">[2]</SPAN> “What is a Plotter?,” 21 Outubro 2019. [Online]. Available: </SPAN><A HREF="https://www.techopedia.com/definition/13011/plotter"><SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">https://www.techopedia.com/definition/13011/plotter</SPAN></SPAN>
+			
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776394"></A><A NAME="_Ref117412991"></A>
+					<SPAN LANG="en-GB">[3]</SPAN> <SPAN LANG="en-GB">Anton, Howard &mdash;
+					<SPAN LANG="en-GB"><I>Elementary Linear Algebra</I>(5th ed.), New York:</SPAN><SPAN LANG="en-GB">.
+					O&rsquo;Wiley, 1987. ISBN 0-471-84819-0.</SPAN></P>
+		
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776394"></A><A NAME="_Ref117412991"></A>
+					<SPAN LANG="en-GB">[4]</SPAN> <SPAN LANG="en-GB">Beauregard, Raymond A.; Fraleigh, John B. &mdash;
+					<SPAN LANG="en-GB"><I> A First Course In Linear Algebra: with Optional Introduction to Groups, Rings, and Fields</I>Boston: </SPAN><SPAN LANG="en-GB">
+					Houghton Mifflin Co., 1973. ISBN 0-395-14017-X.</SPAN></P>
+		
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776394"></A><A NAME="_Ref117412991"></A>
+					<SPAN LANG="en-GB">[5]</SPAN> <SPAN LANG="en-GB">Burden, Richard L.; Faires, J. Douglas &mdash;
+					<SPAN LANG="en-GB"><I>Numerical Analysis</I>(5th ed.), Boston: </SPAN><SPAN LANG="en-GB">
+					Prindle, Weber and Schmidt, 1993. ISBN  0-534-93219-3.</SPAN></P>
+		
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776394"></A><A NAME="_Ref117412991"></A>
+					<SPAN LANG="en-GB">[6]</SPAN> <SPAN LANG="en-GB">Protter, Murray H.; Morrey, Jr., Charles B. &mdash;
+					<SPAN LANG="en-GB"><I>College Calculus with Analytic Geometry</I>(2nd ed.), Reading: </SPAN><SPAN LANG="en-GB">
+					Addison-Wesley, 1970.  LCCN 76087042.</SPAN></P>
+
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776279"></A><SPAN LANG="en-GB"></SPAN>
+					<SPAN LANG="en-US">[7]</SPAN> “Nema 17 Stepper Motor,” 17 Outubro 2019. [Online]. Available: 
+					</SPAN><A HREF="https://www.oyostepper.com/images/upload/File/17HS19-2004S1.pdf">
+					<SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">https://www.oyostepper.com/images/upload/File/17HS19-2004S1.pdf</SPAN></SPAN>
+		
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776279"></A><SPAN LANG="en-GB"></SPAN>
+					<SPAN LANG="en-US">[8]</SPAN>"The midTbot. A New Flavor of H-Bot?," 25 Outubro 2019. [Online]. Available: 
+					</SPAN><A HREF="http://www.buildlog.net/blog/2017/10/the-midtbot-a-new-flavor-of-h-bot/">
+					<SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">http://www.buildlog.net/blog/2017/10/the-midtbot-a-new-flavor-of-h-bot/</SPAN></SPAN>
+		
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776279"></A><SPAN LANG="en-GB"></SPAN>
+					<SPAN LANG="en-US">[9]</SPAN>"CoreXY | Cartesian Motion Platform," 25 Outubro 2019. [Online]. Available: 
+					</SPAN><A HREF="http://corexy.com/theory.html">
+					<SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">http://corexy.com/theory.html</SPAN></SPAN>
+
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776279"></A><SPAN LANG="en-GB"></SPAN>
+					<SPAN LANG="en-US">[10]</SPAN>"CoreXY," 25 Outubro 2019. [Online]. Available: 
+					</SPAN><A HREF="http://www.doublejumpelectric.com/projects/core_xy/2014-07-15-core_xy/">
+					<SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">http://www.doublejumpelectric.com/projects/core_xy/2014-07-15-core_xy/</SPAN></SPAN>
+			
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776279"></A><SPAN LANG="en-GB"></SPAN>
+					<SPAN LANG="en-US">[11]</SPAN>"Turtle graphics for Tk," 12 Novembro 2019. [Online]. Available: 
+					</SPAN><A HREF="https://docs.python.org/2/library/turtle.html">
+					<SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">https://docs.python.org/2/library/turtle.html</SPAN></SPAN>
+
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776279"></A><SPAN LANG="en-GB"></SPAN>
+					<SPAN LANG="en-US">[12]</SPAN>"Qt | Cross-platform software development for embedded systems," 28 Novembro 2019. [Online]. Available: 
+					</SPAN><A HREF="https://www.qt.io/">
+					<SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">https://www.qt.io/</SPAN></SPAN>
+						
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776279"></A><SPAN LANG="en-GB"></SPAN>
+					<SPAN LANG="en-US">[13]</SPAN>"Python," 12 Novembro 2019. [Online]. Available: 
+					</SPAN><A HREF="https://www.python.org/">
+					<SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">https://www.python.org/</SPAN></SPAN>
+
+					<P STYLE="margin-bottom: 0.5cm"><A NAME="_Ref153776279"></A><SPAN LANG="en-GB"></SPAN>
+					<SPAN LANG="en-US">[14]</SPAN>"L298N DUAL FULL-BRIDGE DRIVER," 12 Novembro 2019. [Online]. Available: 
+					</SPAN><A HREF="https://www.sparkfun.com/datasheets/Robotics/L298_H_Bridge.pdf">
+					<SPAN STYLE="text-decoration: none"></SPAN><SPAN LANG="en-US">https://www.sparkfun.com/datasheets/Robotics/L298_H_Bridge.pdf</SPAN></SPAN>
+
+		<TR>
+				<TD COLSPAN=12 WIDTH=100% VALIGN=TOP BGCOLOR="#eeeeee">
+					<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm; border: none; padding: 0cm">
+					<BR><BR>
+					</P>
+					<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+					</P>
+					<P ALIGN=LEFT STYLE="margin-bottom: 0.51cm"><BR><BR>
+					</P>
+					<P ALIGN=LEFT><BR>
+					</P>
+				</TD>
+			</TR>
+			<TR VALIGN=TOP>
+				<TD COLSPAN=11 WIDTH=94%>
+					<UL>
+						<LI><P ALIGN=LEFT STYLE="background: #0099ff; border: none; padding: 0cm"><A NAME="Contactos"></A>
+						<FONT SIZE=5>Contactos</FONT></P>
+							
+
+						<div class="row">
+							<div class="column">
+							<!-- Add icon library -->
+							<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+							<div class="card">
+							<img src="img1.jpg" alt="" style="width:100%">
+							<h1>Diogo Pinto</h1>
+							<p class="title">Engenharia Electrotécnica e de Computadores</p>
+							<p>Instituto Superior de Engenharia do Porto</p>	
+							<p><strong>1160736@isep.ipp.pt</strong></p>
+							<p><button>Contacto</button></p>
+							</div>
+							</div>
+
+							<div class="column">
+							<!-- Add icon library -->
+							<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+							<div class="card">
+							<img src="img2.jpg" alt="" style="width:100%">
+							<h1>Carlos Silva</h1>
+							<p class="title">Engenharia Electrotécnica e de Computadores</p>
+							<p>Instituto Superior de Engenharia do Porto</p>	
+							<p><strong>1160628@isep.ipp.pt</strong></p>
+							<p><button>Contacto</button></p>
+							</div>
+							</div>
+						</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+						
+		
+		
+					</UL>
+				</TD>
+				<TD WIDTH=6%>
+					<P ALIGN=CENTER STYLE="border: none; padding: 0cm"><A HREF="#In&iacute;cio"><FONT COLOR="#000000"><SPAN STYLE="text-decoration: none"><FONT FACE="Thorndale, serif"><FONT SIZE=2><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">In&iacute;cio</SPAN></SPAN></FONT></FONT></SPAN></FONT></A></P>
+				</TD>
+			</TR>
+</TABLE>
+<P ALIGN=LEFT><BR><BR>
+</P>
+<P ALIGN=LEFT><BR><BR>
+</P>
+<P ALIGN=LEFT><BR><BR>
+</P>
+<P ALIGN=LEFT><BR><BR>
+</P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+</BODY>
+</HTML>
